@@ -1,0 +1,77 @@
+* {
+  background-color: #AC8968;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading {
+  text-align: center;
+  font-weight: 800;
+  color: black;
+}
+
+.container {
+  background-color: white;
+  height: 200px;
+  width: 50%;
+  margin-top: 60px;
+  border: 1px solid black;
+  text-align: center;
+  margin-left: 25%;
+  border-radius: 25px;
+}
+.container h2{
+  background-color: transparent;
+  margin-bottom: 50px;
+}
+.container input {
+  background-color: transparent;
+  font-weight: 500;
+  color: black;
+  height: 35px;
+  width: 80%;
+  max-width: 300px;
+}
+.container input::placeholder {
+  color: black;
+  font-weight: 600;
+}
+
+.container button {
+  background-color: transparent;
+  font-weight: 600;
+  margin-left: 10px;
+  height: 40px;
+  width: 70px;
+  border: 1.5px solid black;
+  border-radius: 25px;
+}
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.movie-item {
+  margin-top: 40px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.movie-item img {
+  width: 100%;
+  height: auto;
+}
+.movie-item h3{
+  background-color: transparent;
+}
+.movie-item p{
+  background-color: transparent;
+}
